@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building application using Maven (build automation tool)...'
-                echo 'Compiling source code and packaging into artifact (e.g., JAR/WAR)...'
+                // echo 'Compiling source code and packaging into artifact (e.g., JAR/WAR)...'
             }
         }
 
